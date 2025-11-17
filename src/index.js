@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const temp_number = 6;
+// const temp_number = 6;
 // let text = "5?";
 // if (temp_number > 5) {
 //   text = "over 5";
@@ -15,20 +15,26 @@ const temp_number = 6;
 // const myElement = <div>I Love JSX!</div>
 // const myElement2 = React.createElement('h1', {}, 'I do not use JSX!');
 // const myElement3 = <h1>React is {5 + 5} times better with JSX</h1>;
-const myElement5 = <h1> is it?? : {temp_number > 5 ? "over 5" : "under or equal 5"}</h1>;
-const myElement6 = <h1 style={{ backgroundColor: "red" }}>is it?? : {temp_number > 5 ? "over 5" : "under or equal 5"}</h1>;
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const myElement5 = <h1> is it?? : {temp_number > 5 ? "over 5" : "under or equal 5"}</h1>;
+// const myElement6 = <h1 style={{ backgroundColor: "red" }}>is it?? : {temp_number > 5 ? "over 5" : "under or equal 5"}</h1>;
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
-//     <App />
 //   </React.StrictMode>
 // );
 //root.render(myElement);
+// root.render(
+//   <>
+//     {myElement5}
+//     {myElement6}
+//   </>
+// );
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    {myElement5}
-    {myElement6}
-  </>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

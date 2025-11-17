@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello.js';
+import Garage from './Garage.js';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <p>
           alert2 <code>src/App.js</code> and save to reload.
         </p>
-        <Hello />
+        <Hello name="112233" />
+        <Garage />
         <a
           className="App-link"
           href="https://reactjs.org"
