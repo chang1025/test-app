@@ -22,7 +22,7 @@ function Car3(props) {
 function Garage(props) {
   let carinfo = { name: "Ford3", model: "Mustang" };
   let carName = "Ford1";
-  // let cars = ['Ford', 'BMW', 'Audi'];
+  let cars = ['Ford', 'BMW', 'Audi'];
   let array_car = [
     { id: 1, brand: "Ford" },
     { id: 2, brand: "Audi" },
